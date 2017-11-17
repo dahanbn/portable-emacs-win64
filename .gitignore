@@ -9,3 +9,22 @@
 
 # Undo-tree save-files
 *.~undo-tree
+
+# don't track .emacs.d - it's a separate git project
+.emacs.d
+
+# don't track emacs-local (win) / .emacs-local (linux, mac)
+# that dir contains elpa, recentf, saveplace, bookmarks, ...
+emacs-local
+.emacs-local
+
+# don't track the emacs binary folder, 
+# the dir looks like emacs-25.3-i686
+emacs-2*
+
+# no archive files
+*.zip
+*.7z
+*.rar
+*.tar.gz
+*.tar.bz2
