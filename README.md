@@ -37,6 +37,7 @@ First clone the portable-emacs-win64 repository:
 
 Than go into the directory and clone the [.emacs.d repository](https://github.com/dahanbn/.emacs.d):
 
+    cd portable-emacs-win64
     git clone https://github.com/dahanbn/.emacs.d.git
 
 Than download the latest stable emacs (emacs-25.3_1-x86_64) from http://ftp.gnu.org/gnu/emacs/windows/ and unzip it to the directory `emacs-25.3_1-x86_64`.
