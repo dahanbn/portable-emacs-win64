@@ -1,0 +1,8 @@
+[core]
+	autocrlf = false
+	eol = lf
+[user]
+	name = Daniel Hannaske
+	email = d.hannaske@gmail.com
+[credential]
+	helper = wincred

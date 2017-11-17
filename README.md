@@ -18,7 +18,11 @@ It contains the following tools and batch files:
         * [IBM Plex Mono, v0.4.1](https://github.com/IBM/type/tree/master/fonts/Mono/desktop/pc), light, regular & semibold plus italics
         * [IBM Plex Sans, v0.4.1](https://github.com/IBM/type/tree/master/fonts/Sans/desktop/pc), light, regular & semibold plus italics
         * [IBM Plex Serif, v0.4.1](https://github.com/IBM/type/tree/master/fonts/Serif/desktop/pc), light, regular & semibold plus italics
++ .gitconfig
 + portable-emacs-win64.bat, licensed under GPL v3
+
+**Warning:** `.gitconfig` is needed because of the portable use of git, it needs 
+a copy of the file under the fake `$HOME`. You can read more [here](https://github.com/magit/magit/issues/1497).
 
 ## following additional content is needed
 
