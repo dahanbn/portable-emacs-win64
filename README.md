@@ -34,9 +34,9 @@ It contains the following tools and batch files:
 + .gitconfig
 + portable-emacs-win64.bat, licensed under GPL v3
 
-**Warning:** `.gitconfig` is needed because of the portable use of git, it needs 
+**Warning:** `.gitconfig` is needed because of the portable use of git, it needs
 a copy of the file under the fake `$HOME`. You can read more
-[here](https://github.com/magit/magit/issues/1497). Nevertheless you still have 
+[here](https://github.com/magit/magit/issues/1497). Nevertheless you still have
 to set up the real .gitconfig and the credential service, e.g.:
 
     git config --global user.name "John Doe"
