@@ -2,7 +2,20 @@
 
 Repository to speed up my use of a portable Emacs version with tools under Windows 64 bit. All tools and binaries are for 64bit versions - if available.
 
-## content
+## How to get it?
+
+First clone the portable-emacs-win64 repository, han go into the directory and 
+clone the [.emacs.d repository](https://github.com/dahanbn/.emacs.d):
+
+    git clone https://github.com/dahanbn/portable-emacs-win64.git
+    cd portable-emacs-win64
+    git clone https://github.com/dahanbn/.emacs.d.git
+
+Than download the latest stable emacs (emacs-25.3_1-x86_64) from http://ftp.gnu.org/gnu/emacs/windows/ and unzip it to the directory `emacs-25.3_1-x86_64`.
+
+That's all.
+
+## What is included?
 
 It contains the following tools and batch files:
 
@@ -31,22 +44,7 @@ to set up the real .gitconfig and the credential service, e.g.:
 	
 	# credential service will be setup on the first push
 
-## following additional content is needed
+## What is additionally needed to get it to work?
 
 + [my .emacs.d - directory](https://github.com/dahanbn/.emacs.d), licensed under GPL v3
 + [latest stable Emacs](https://www.gnu.org/software/emacs/), currently emacs-25.3_1-x86_64, licensed under the GPL
-
-## How to get it
-
-First clone the portable-emacs-win64 repository:
-
-    git clone https://github.com/dahanbn/portable-emacs-win64.git
-
-Than go into the directory and clone the [.emacs.d repository](https://github.com/dahanbn/.emacs.d):
-
-    cd portable-emacs-win64
-    git clone https://github.com/dahanbn/.emacs.d.git
-
-Than download the latest stable emacs (emacs-25.3_1-x86_64) from http://ftp.gnu.org/gnu/emacs/windows/ and unzip it to the directory `emacs-25.3_1-x86_64`.
-
-That's all.
