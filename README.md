@@ -15,6 +15,29 @@ Than download the latest stable emacs (emacs-25.3_1-x86_64) from http://ftp.gnu.
 
 That's all.
 
+## How to update it?
+
+Run `git-pull-emacs-emacs.d.bat` to pull updates & fast forward into it if git
+is locally installed. The batch file also pulls new commits from the `.emacs.d`
+repository and uses also git submodule there for other local-packages that are
+git repositories itselfs, e.g. [lpy](https://github.com/abo-abo/lpy).
+
+Currently it contains the following code:
+
+    echo "Running git pull for portable-emacs-win64"
+    git pull https://github.com/dahanbn/portable-emacs-win64.git
+    
+    pause
+    
+    cd .emacs.d
+    echo "Running git pull for .emacs.d"
+    git pull https://github.com/dahanbn/.emacs.d.git
+    echo "Fetching submodules via git submodule"
+    git submodule init
+    git submodule update --remote
+    
+    pause
+
 ## What is included?
 
 It contains the following tools and batch files:
