@@ -1,0 +1,3 @@
+[submodule "elisp-playground"]
+	path = elisp-playground
+	url = https://github.com/dahanbn/elisp-playground.git
