@@ -54,6 +54,7 @@ It contains the following tools and batch files:
         * [IBM Plex Mono, v0.4.1](https://github.com/IBM/type/tree/master/fonts/Mono/desktop/pc), light, regular & semibold plus italics
         * [IBM Plex Sans, v0.4.1](https://github.com/IBM/type/tree/master/fonts/Sans/desktop/pc), light, regular & semibold plus italics
         * [IBM Plex Serif, v0.4.1](https://github.com/IBM/type/tree/master/fonts/Serif/desktop/pc), light, regular & semibold plus italics
+    * [iA Duospace Fonts](https://github.com/iaolo/iA-Fonts), based on IBM Plex Mono and licensed under SIL OPEN FONT LICENSE Version 1.1
 + .gitconfig
 + git-pull-emacs-emacs.d.bat
 + portable-emacs-win64.bat, licensed under GPL v3
