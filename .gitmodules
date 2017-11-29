@@ -1,0 +1,3 @@
+[submodule "fonts-for-local-install/iA Fonts"]
+	path = fonts-for-local-install/iA Fonts
+	url = https://github.com/iaolo/iA-Fonts.git
