@@ -43,7 +43,6 @@ Currently it contains the following code:
 It contains the following tools and batch files:
 
 + tools
-    * [MultiMarkdown 6.2.2](http://fletcherpenney.net/multimarkdown/), licensed under MIT license
     * [pandoc 2.0.2](https://pandoc.org/), licensed under the GPL
     * [PortableGit 2.15.0](https://git-scm.com/download/win), licensed under the GPL v2
     * [putty 0.70](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), licensed under the MIT license
