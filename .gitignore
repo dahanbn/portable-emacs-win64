@@ -18,6 +18,9 @@
 emacs-local
 .emacs-local
 
+# don't track AppData/Local/Microsoft
+AppData/Local/Microsoft
+
 # don't track the emacs binary folder, 
 # the dir looks like emacs-25.3-i686
 emacs-2*
