@@ -43,10 +43,14 @@ Currently it contains the following code:
 It contains the following tools and batch files:
 
 + tools
-    * [pandoc 2.0.2](https://pandoc.org/), licensed under the GPL
-    * [PortableGit 2.15.0](https://git-scm.com/download/win), licensed under the GPL v2
+    * [pandoc 2.0.5](https://pandoc.org/), licensed under the GPL
+    * [PortableGit 2.15.1.2](https://git-scm.com/download/win), licensed under the GPL v2
     * [putty 0.70](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), licensed under the MIT license
-    * [WinSCP 5.11.2](https://winscp.net/eng/download.php), licensed under GPL v3
+    * [WinSCP 5.11.2](https://winscp.net/eng/download.php), licensed
+      under GPL v3
+    *
+      [http://fletcherpenney.net/multimarkdown/download/](https://github.com/dahanbn/.emacs.d
+      "MultiMarkdown 6.2.3"), licensed under GPL v2 or greater
 + fonts-for-local-install
     * [CamingoCode, v1.0](http://www.janfromm.de/typefaces/camingomono/camingocode/), licensed under Creative Commons License CC BY-ND, Version 3.0
     * [IBM Plex Family](https://github.com/IBM/type), licensed under SIL OPEN FONT LICENSE Version 1.1
