@@ -76,3 +76,13 @@ to set up the real .gitconfig and the credential service, e.g.:
 
 + [my .emacs.d - directory](https://github.com/dahanbn/.emacs.d), licensed under GPL v3
 + [latest stable Emacs](https://www.gnu.org/software/emacs/), currently emacs-25.3_1-x86_64, licensed under the GPL
+
+## Next benefit: synching of pandoc, multimarkdown, ...
+
+Another benefit of this repository is the synching of various portable apps to different machines, e.g. git, pandoc & markdown.
+
+To make it user wide accessible on the different machines outside of Emacs it is recommended to add the path to those application directories to the user environment path variable.
+
+    D:\portable-emacs-win64\tools\pandoc;D:\portable-emacs-win64\tools\PortableGit\cmd;D:\portable-emacs-win64\tools\putty;D:\portable-emacs-win64\tools\WinSCP;D:\portable-emacs-win64\tools\MultiMarkdown\bin;
+
+On Windows 10 with a Microsoft User Account you find the dialog to set it up under `Systemsteuerung\Benutzerkonten\Benutzerkonten` => `Eigene Umgebungsvariablen bearbeiten`.
