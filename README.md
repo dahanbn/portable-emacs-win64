@@ -44,7 +44,7 @@ It contains the following tools and batch files:
 
 + tools
     * [pandoc 2.1.1](https://pandoc.org/), licensed under the GPL
-    * [PortableGit 2.15.1.2](https://git-scm.com/download/win), licensed under the GPL v2
+    * [PortableGit 2.16.1.2 64-Bit](https://git-scm.com/download/win), licensed under the GPL v2
     * [putty 0.70](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), licensed under the MIT license
     * [WinSCP 5.11.2](https://winscp.net/eng/download.php), licensed
       under GPL v3
