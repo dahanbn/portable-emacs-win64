@@ -18,6 +18,6 @@ set SBCL_HOME=%SBCL%
 set GITDIR=%DH_TOOLSDIR%\PortableGit
 set PATH=%SBCL_HOME%;%GITDIR%\cmd;%DH_TOOLSDIR%\pandoc;%DH_TOOLSDIR%\putty;%DH_TOOLSDIR%\WinSCP;%DH_TOOLSDIR%\MultiMarkdown\bin;%PATH%
 REM "emacs-25.3_1-x86_64/bin/runemacs.exe" --debug-init %*
-"emacs-25.3_1-x86_64/bin/runemacs.exe" %*
+"emacs-26.1-x86_64/bin/runemacs.exe" %*
 
 
