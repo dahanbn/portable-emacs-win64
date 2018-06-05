@@ -11,7 +11,7 @@ clone the [.emacs.d repository](https://github.com/dahanbn/.emacs.d):
     cd portable-emacs-win64
     git clone https://github.com/dahanbn/.emacs.d.git
 
-Than download the latest stable emacs (emacs-26-x86_64) from http://ftp.gnu.org/gnu/emacs/windows/ and unzip it to the directory `emacs-26.1-x86_64`.
+Than download the latest stable emacs (emacs-26.1-x86_64) from http://ftp.gnu.org/gnu/emacs/windows/ and unzip it to the directory `emacs-26.1-x86_64`.
 
 That's all.
 
@@ -42,15 +42,16 @@ Currently it contains the following code:
 
 It contains the following tools and batch files:
 
++ [Emacs 26.1 64 bit](http://ftp.gnu.org/gnu/emacs/windows/), licensed under the GPL
 + tools
-    * [pandoc 2.1.1](https://pandoc.org/), licensed under the GPL
-    * [PortableGit 2.16.1.2 64-Bit](https://git-scm.com/download/win), licensed under the GPL v2
+    * [pandoc 2.2.1](https://pandoc.org/), licensed under the GPL
+    * [PortableGit 2.17.1 64-Bit](https://git-scm.com/download/win), licensed under the GPL v2
     * [putty 0.70](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), licensed under the MIT license
     * [WinSCP 5.11.2](https://winscp.net/eng/download.php), licensed
       under GPL v3
     *
       [http://fletcherpenney.net/multimarkdown/download/](https://github.com/dahanbn/.emacs.d
-      "MultiMarkdown 6.2.3"), licensed under GPL v2 or greater
+      "MultiMarkdown 6.3.2"), licensed under GPL v2 or greater
 + fonts-for-local-install
     * [CamingoCode, v1.0](http://www.janfromm.de/typefaces/camingomono/camingocode/), licensed under Creative Commons License CC BY-ND, Version 3.0
     * [IBM Plex Family](https://github.com/IBM/type), licensed under SIL OPEN FONT LICENSE Version 1.1
