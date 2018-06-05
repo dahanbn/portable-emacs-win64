@@ -53,6 +53,7 @@ It contains the following tools and batch files:
     *
       [http://fletcherpenney.net/multimarkdown/download/](https://github.com/dahanbn/.emacs.d
       "MultiMarkdown 6.3.2"), licensed under GPL v2 or greater
+    * [Steel Bank Common Lisp (SBCL) 1.4.2](http://www.sbcl.org/platform-table.html), licensed under various licenses (SBCL is derived from CMU CL, and carries the same licensing terms, a mixture of BSD-style (for a few subsystems) and public domain (for the rest of the system).)
 + fonts-for-local-install
     * [CamingoCode, v1.0](http://www.janfromm.de/typefaces/camingomono/camingocode/), licensed under Creative Commons License CC BY-ND, Version 3.0
     * [IBM Plex Family](https://github.com/IBM/type), licensed under SIL OPEN FONT LICENSE Version 1.1
