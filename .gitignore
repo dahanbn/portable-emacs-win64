@@ -17,6 +17,8 @@
 # that dir contains elpa, recentf, saveplace, bookmarks, ...
 emacs-local
 .emacs-local
+emacs-local.old
+.emacs-local.old
 
 # don't track AppData/Local/Microsoft
 AppData/Local/Microsoft
