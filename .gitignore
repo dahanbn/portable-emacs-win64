@@ -27,9 +27,22 @@ AppData/Local/Microsoft
 # the dir looks like emacs-25.3-i686
 emacs-2*
 
+# don't track various init files
+WinSCP.ini
+DontSleep_p.ini
+DontSleep_x64_p.ini
+
+
 # no archive files
 *.zip
 *.7z
 *.rar
 *.tar.gz
 *.tar.bz2
+
+# pandoc is too large for github > 100 MB
+# therefore ignore local installation
+# and add only the zip file that must be extracted manually
+# in that directory
+tools/pandoc/*
+!tools/pandoc/*.zip

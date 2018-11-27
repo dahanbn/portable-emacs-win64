@@ -19,6 +19,7 @@ git-clone.exe
 git-column.exe
 git-commit-tree.exe
 git-commit.exe
+git-commit-graph.exe
 git-config.exe
 git-count-objects.exe
 git-credential.exe
@@ -68,8 +69,10 @@ git-prune-packed.exe
 git-prune.exe
 git-pull.exe
 git-push.exe
+git-range-diff.exe
 git-read-tree.exe
-git-rebase--helper.exe
+git-rebase.exe
+git-rebase--interactive.exe
 git-receive-pack.exe
 git-reflog.exe
 git-remote.exe
@@ -84,9 +87,12 @@ git-rev-parse.exe
 git-revert.exe
 git-rm.exe
 git-send-pack.exe
+git-serve.exe
 git-shortlog.exe
 git-show-branch.exe
+git-show-index.exe
 git-show-ref.exe
+git-stash.exe
 git-stripspace.exe
 git-submodule--helper.exe
 git-symbolic-ref.exe
@@ -97,6 +103,7 @@ git-update-index.exe
 git-update-ref.exe
 git-update-server-info.exe
 git-upload-archive.exe
+git-upload-pack.exe
 git-var.exe
 git-verify-commit.exe
 git-verify-pack.exe

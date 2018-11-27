@@ -15,7 +15,7 @@ use LWP::Protocol ();
 use Scalar::Util qw(blessed);
 use Try::Tiny qw(try catch);
 
-our $VERSION = '6.31';
+our $VERSION = '6.36';
 
 sub new
 {
@@ -60,6 +60,8 @@ sub new
     $use_eval = 1 unless defined $use_eval;
     my $parse_head = delete $cnf{parse_head};
     $parse_head = 1 unless defined $parse_head;
+    my $send_te = delete $cnf{send_te};
+    $send_te = 1 unless defined $send_te;
     my $show_progress = delete $cnf{show_progress};
     my $max_size = delete $cnf{max_size};
     my $max_redirect = delete $cnf{max_redirect};
@@ -109,6 +111,7 @@ sub new
         protocols_allowed     => $protocols_allowed,
         protocols_forbidden   => $protocols_forbidden,
         requests_redirectable => $requests_redirectable,
+        send_te               => $send_te,
     }, $class;
 
     $self->agent(defined($agent) ? $agent : $class->_agent)
@@ -686,6 +689,7 @@ sub local_address{ shift->_elem('local_address',@_); }
 sub max_size     { shift->_elem('max_size',     @_); }
 sub max_redirect { shift->_elem('max_redirect', @_); }
 sub show_progress{ shift->_elem('show_progress', @_); }
+sub send_te      { shift->_elem('send_te',      @_); }
 
 sub ssl_opts {
     my $self = shift;
@@ -1237,7 +1241,7 @@ method is the old attribute value.
 =head2 agent
 
     my $agent = $ua->agent;
-    $ua->agent('Checkbot/0.4 ');    # append the defaul to the end
+    $ua->agent('Checkbot/0.4 ');    # append the default to the end
     $ua->agent('Mozilla/5.0');
     $ua->agent("");                 # don't identify
 
@@ -1430,6 +1434,15 @@ To change to include C<POST>, consider:
 
    push @{ $ua->requests_redirectable }, 'POST';
 
+=head2 send_te
+
+    my $bool = $ua->send_te;
+    $ua->send_te( $boolean );
+
+If true, will send a C<TE> header along with the request. The default is
+true. Set it to false to disable the C<TE> header for systems who can't
+handle it.
+
 =head2 show_progress
 
     my $bool = $ua->show_progress;
@@ -1494,10 +1507,15 @@ https-URLs.
 Get/set the timeout value in seconds. The default value is
 180 seconds, i.e. 3 minutes.
 
-The requests is aborted if no activity on the connection to the server
+The request is aborted if no activity on the connection to the server
 is observed for C<timeout> seconds.  This means that the time it takes
 for the complete transaction and the L<LWP::UserAgent/request> method to
 actually return might be longer.
+
+When a request times out, a response object is still returned.  The response
+will have a standard HTTP Status Code (500).  This response will have the
+"Client-Warning" header set to the value of "Internal response".  See the
+L<LWP::UserAgent/get> method description below for further details.
 
 =head1 PROXY ATTRIBUTES
 

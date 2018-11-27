@@ -20,7 +20,7 @@ for an overview of features.
 
 ## Getting Started
 
-### Installation
+### Downloading
 
 You can install the Git LFS client in several different ways, depending on your
 setup and preferences.
@@ -29,25 +29,45 @@ setup and preferences.
   [PackageCloud](https://packagecloud.io/github/git-lfs/install).
 * **macOS users**. [Homebrew](https://brew.sh) bottles are distributed, and can
   be installed via `brew install git-lfs`.
-* **Windows users**. Chocolatey packages are distributed, and can be installed
-  via `choco install git-lfs`.
+* **Windows users**. Git LFS is included in the distribution of
+  [Git for Windows](https://gitforwindows.org/). Alternatively, you can
+  install a recent version of Git LFS from the [Chocolatey](https://chocolatey.org/) package manager.
+* **Binary packages**. In addition, [binary packages](https://github.com/git-lfs/git-lfs/releases) are
+available for Linux, macOS, Windows, and FreeBSD.
+* **Building from source**. [This repository](https://github.com/git-lfs/git-lfs.git) can also be
+built from source using the latest version of [Go](https://golang.org), and the
+available instructions in our
+[Wiki](https://github.com/git-lfs/git-lfs/wiki/Installation#source).
 
-In addition, [binary packages](https://github.com/git-lfs/git-lfs/releases) are
-available for Linux, macOS, Windows, and FreeBSD. This repository can also be
-built-from-source using the latest version of [Go](https://golang.org).
+### Installing
 
-### Usage
+#### From binary
 
-Git LFS requires a global installation once per-machine. This can be done by
+The [binary packages](https://github.com/git-lfs/git-lfs/releases) include a script which will:
+
+- Install Git LFS binaries onto the system `$PATH`
+- Run `git lfs install` to
+perform required global configuration changes.
+
+```ShellSession
+$ ./install.sh
+```
+
+#### From source
+
+- Place the `git-lfs` binary on your system’s executable `$PATH` or equivalent.
+- Git LFS requires global configuration changes once per-machine. This can be done by
 running:
 
-```bash
+```ShellSession
 $ git lfs install
 ```
 
-To begin using Git LFS within your Git repository, you can indicate which files
-you would like Git LFS to manage. This can be done by running the following
-_from within Git repository_:
+## Example Usage
+
+To begin using Git LFS within a Git repository that is not already configured
+for Git LFS, you can indicate which files you would like Git LFS to manage.
+This can be done by running the following _from within a Git repository_:
 
 ```bash
 $ git lfs track "*.psd"
@@ -139,13 +159,17 @@ These are the humans that form the Git LFS core team, which runs the project.
 
 In alphabetical order:
 
-| [@larsxschneider][larsxschneider-user] | [@ttaylorr][ttaylorr-user] |
-|---|---|
-| [![][larsxschneider-img]][larsxschneider-user] | [![][ttaylorr-img]][ttaylorr-user] |
+| [@bk2204][bk2204-user] | [@larsxschneider][larsxschneider-user] | [@PastelMobileSuit][PastelMobileSuit-user] | [@ttaylorr][ttaylorr-user] |
+|---|---|---|---|
+| [![][bk2204-img]][bk2204-user] | [![][larsxschneider-img]][larsxschneider-user] | [![][PastelMobileSuit-img]][PastelMobileSuit-user] | [![][ttaylorr-img]][ttaylorr-user] |
 
+[bk2204-img]: https://avatars1.githubusercontent.com/u/497054?s=100&v=4
 [larsxschneider-img]: https://avatars1.githubusercontent.com/u/477434?s=100&v=4
+[PastelMobileSuit-img]: https://avatars2.githubusercontent.com/u/37254014?s=100&v=4
 [ttaylorr-img]: https://avatars2.githubusercontent.com/u/443245?s=100&v=4
+[bk2204-user]: https://github.com/bk2204
 [larsxschneider-user]: https://github.com/larsxschneider
+[PastelMobileSuit-user]: https://github.com/PastelMobileSuit
 [ttaylorr-user]: https://github.com/ttaylorr
 
 ### Alumni
