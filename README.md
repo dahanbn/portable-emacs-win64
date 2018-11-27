@@ -51,9 +51,9 @@ It contains the following tools and batch files:
     * [WinSCP 5.11.2](https://winscp.net/eng/download.php), licensed
       under GPL v3
     *
-      [http://fletcherpenney.net/multimarkdown/download/](https://github.com/dahanbn/.emacs.d
-      "MultiMarkdown 6.3.2"), licensed under GPL v2 or greater
+      [MultiMarkdown 6.3.2](http://fletcherpenney.net/multimarkdown/download/), licensed under GPL v2 or greater
     * [Steel Bank Common Lisp (SBCL) 1.4.2](http://www.sbcl.org/platform-table.html), licensed under various licenses (SBCL is derived from CMU CL, and carries the same licensing terms, a mixture of BSD-style (for a few subsystems) and public domain (for the rest of the system).)
+    * [Don't Sleep 4.85](http://softwareok.de/?seite=Microsoft/DontSleep), Freeware, please see it's [license](http://softwareok.de/?seite=Microsoft/DontSleep/Lizenz)
 + fonts-for-local-install
     * [CamingoCode, v1.0](http://www.janfromm.de/typefaces/camingomono/camingocode/), licensed under Creative Commons License CC BY-ND, Version 3.0
     * [IBM Plex Family](https://github.com/IBM/type), licensed under SIL OPEN FONT LICENSE Version 1.1
