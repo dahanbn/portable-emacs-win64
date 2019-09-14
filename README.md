@@ -49,7 +49,7 @@ For the versions of the different tools please see the tools directory. There is
 **Attention!** Pandoc.exe is too big for Git to handle it. Therefore the portable pandoc must be [downloaded separately](https://github.com/jgm/pandoc/releases/latest) and the files extracted to `tools/pandoc/`. Or use the provided zip file in the directory.
 
 + tools
-    * [pandoc 2.4 64bit](https://github.com/jgm/pandoc/releases/latest), licensed under the GPL
+    * [pandoc 2.7.3 64bit](https://github.com/jgm/pandoc/releases/latest), licensed under the GPL
     * [Portable Git 2.19.2 64bit](https://git-scm.com/download/win), licensed under the GPL v2
     * [putty 0.70](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), licensed under the MIT license
     * [WinSCP 5.13.5](https://winscp.net/eng/download.php), licensed
