@@ -54,7 +54,10 @@ For the versions of the different tools please see the tools directory. There is
     * [putty 0.70](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), licensed under the MIT license
     * [WinSCP 5.13.5](https://winscp.net/eng/download.php), licensed
       under GPL v3
-    * [MultiMarkdown 6.4.0 64bit](http://fletcherpenney.net/multimarkdown/download/), licensed under GPL v2 or greater
+    * [MultiMarkdown 6.4.0 64bit](http://fletcherpenney.net/multimarkdown/download/),
+      licensed under GPL v2 or greater
+    * [ripgrep 11.0.2 64
+      bit](https://github.com/BurntSushi/ripgrep/releases), licensed under MIT or UNLICENSE (dual-licensed)
     * [Steel Bank Common Lisp (SBCL) 1.4.2](http://www.sbcl.org/platform-table.html), licensed under various licenses (SBCL is derived from CMU CL, and carries the same licensing terms, a mixture of BSD-style (for a few subsystems) and public domain (for the rest of the system).)
     * [Don't Sleep 4.85 32bit & 64bit](http://softwareok.de/?seite=Microsoft/DontSleep), Freeware, please see it's [license](http://softwareok.de/?seite=Microsoft/DontSleep/Lizenz)
 + fonts-for-local-install
