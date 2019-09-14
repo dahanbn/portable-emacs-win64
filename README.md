@@ -59,7 +59,7 @@ For the versions of the different tools please see the tools directory. There is
     * [ripgrep 11.0.2 64
       bit](https://github.com/BurntSushi/ripgrep/releases), licensed under MIT or UNLICENSE (dual-licensed)
     * [Steel Bank Common Lisp (SBCL) 1.4.2](http://www.sbcl.org/platform-table.html), licensed under various licenses (SBCL is derived from CMU CL, and carries the same licensing terms, a mixture of BSD-style (for a few subsystems) and public domain (for the rest of the system).)
-    * [Don't Sleep 4.85 32bit & 64bit](http://softwareok.de/?seite=Microsoft/DontSleep), Freeware, please see it's [license](http://softwareok.de/?seite=Microsoft/DontSleep/Lizenz)
+    * [Don't Sleep 4.85 64bit](http://softwareok.de/?seite=Microsoft/DontSleep), Freeware, please see it's [license](http://softwareok.de/?seite=Microsoft/DontSleep/Lizenz)
 + fonts-for-local-install
     * [CamingoCode, v1.0](http://www.janfromm.de/typefaces/camingomono/camingocode/), licensed under Creative Commons License CC BY-ND, Version 3.0
     * [IBM Plex Family](https://github.com/IBM/type), licensed under SIL OPEN FONT LICENSE Version 1.1
