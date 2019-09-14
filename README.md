@@ -52,7 +52,7 @@ For the versions of the different tools please see the tools directory. There is
     * [pandoc 2.7.3 64bit](https://github.com/jgm/pandoc/releases/latest), licensed under the GPL
     * [Portable Git 2.23.0 64bit](https://git-scm.com/download/win), licensed under the GPL v2
     * [putty 0.70](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), licensed under the MIT license
-    * [WinSCP 5.13.5](https://winscp.net/eng/download.php), licensed
+    * [WinSCP 5.15.3](https://winscp.net/eng/download.php), licensed
       under GPL v3
     * [MultiMarkdown 6.4.0 64bit](http://fletcherpenney.net/multimarkdown/download/),
       licensed under GPL v2 or greater
