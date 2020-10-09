@@ -15,9 +15,8 @@ SET LOCALAPPDATA=%CD%\AppData\Local
 set DH_TOOLSDIR=%CD%\tools
 set SBCL=%DH_TOOLSDIR%\sbcl
 set SBCL_HOME=%SBCL%
-set GITDIR=%DH_TOOLSDIR%\PortableGit
-set PATH=%DH_TOOLSDIR%\ripgrep;%SBCL_HOME%;%GITDIR%\cmd;%DH_TOOLSDIR%\pandoc;%DH_TOOLSDIR%\putty;%DH_TOOLSDIR%\WinSCP;%DH_TOOLSDIR%\MultiMarkdown\bin;%PATH%
+set PATH=%DH_TOOLSDIR%\ripgrep;%SBCL_HOME%;%DH_TOOLSDIR%\pandoc;%DH_TOOLSDIR%\MultiMarkdown\bin;%PATH%
 REM "emacs-25.3_1-x86_64/bin/runemacs.exe" --debug-init %*
-"emacs-26.3-x86_64/bin/runemacs.exe" %*
+"emacs-27.1-x86_64/bin/runemacs.exe" %*
 
 
