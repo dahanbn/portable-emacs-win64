@@ -44,5 +44,5 @@ DontSleep_x64_p.ini
 # therefore ignore local installation
 # and add only the zip file that must be extracted manually
 # in that directory
-tools/pandoc/*
-!tools/pandoc/*.zip
+# tools/pandoc/*
+# !tools/pandoc/*.zip

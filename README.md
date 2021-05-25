@@ -49,7 +49,7 @@ For the versions of the different tools please see the tools directory. There is
 **Attention!** Pandoc.exe is too big for Git to handle it. Therefore the portable pandoc must be [downloaded separately](https://github.com/jgm/pandoc/releases/latest) and the files extracted to `tools/pandoc/`. Or use the provided zip file in the directory.
 
 + tools
-    * [pandoc 2.10.1 64bit](https://github.com/jgm/pandoc/releases/latest), licensed under the GPL
+    * [pandoc 2.13 64bit](https://github.com/jgm/pandoc/releases/latest), licensed under the GPL
     * [MultiMarkdown 6.6.0 64bit](http://fletcherpenney.net/multimarkdown/download/),
       licensed under GPL v2 or greater
     * [ripgrep 12.1.1 64 bit](https://github.com/BurntSushi/ripgrep/releases), licensed under MIT or UNLICENSE (dual-licensed)
