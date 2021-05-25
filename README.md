@@ -46,7 +46,7 @@ It contains the following tools and batch files:
 
 For the versions of the different tools please see the tools directory. There is a txt file for each included version. 
 
-**Attention!** Pandoc.exe is too big for Git to handle it. Therefore the portable pandoc must be [downloaded separately](https://github.com/jgm/pandoc/releases/latest) and the files extracted to `tools/pandoc/`. Or use the provided zip file in the directory.
+**Attention!** Pandoc.exe is sometimes too big for Git to handle it (>=100 MB). Therefore the portable pandoc must be [downloaded separately](https://github.com/jgm/pandoc/releases/latest) and the files extracted to `tools/pandoc/`. Or use the provided zip file in the directory. The current pandoc binary is smaller than 100 MB and thereore is pandoc included.
 
 + tools
     * [pandoc 2.13 64bit](https://github.com/jgm/pandoc/releases/latest), licensed under the GPL
