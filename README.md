@@ -50,7 +50,7 @@ For the versions of the different tools please see the tools directory. There is
 
 + tools
     * [pandoc 2.10.1 64bit](https://github.com/jgm/pandoc/releases/latest), licensed under the GPL
-    * [MultiMarkdown 6.5.2 64bit](http://fletcherpenney.net/multimarkdown/download/),
+    * [MultiMarkdown 6.6.0 64bit](http://fletcherpenney.net/multimarkdown/download/),
       licensed under GPL v2 or greater
     * [ripgrep 12.1.1 64 bit](https://github.com/BurntSushi/ripgrep/releases), licensed under MIT or UNLICENSE (dual-licensed)
     * [Steel Bank Common Lisp (SBCL) 1.4.2](http://www.sbcl.org/platform-table.html), licensed under various licenses (SBCL is derived from CMU CL, and carries the same licensing terms, a mixture of BSD-style (for a few subsystems) and public domain (for the rest of the system).)
